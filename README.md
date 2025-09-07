@@ -1,16 +1,13 @@
-# store
+# Store-App
 
-A new Flutter project.
+A simple **Flutter application** that fetches and displays products from the [Fake Store API](https://fakestoreapi.com/) in a neat **GridView layout**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+- Fetches products from the `https://fakestoreapi.com/products` endpoint using **Dio**.
+- Displays products in a responsive **GridView** with styled product cards.
+- Converts JSON into a structured **ProductModel** (with proper type casting).
+- Shows product details like **title, price, and image**.
+- Navigation support using **Navigator.pushNamed**.
+- Loading indicators and error handling via **FutureBuilder**.
